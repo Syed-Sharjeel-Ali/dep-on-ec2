@@ -19,5 +19,5 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd ~/Desktop
+            cd ~/Desktop/dep-on-ec2
             git pull 
